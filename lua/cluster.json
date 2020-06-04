@@ -1,0 +1,13 @@
+{
+	"REPLICATION" : "0",
+        "REDIS_CLUSTER" : [
+		{ "redis-cluster-prod" : [
+			{"host" : "127.0.0.1", "port" : "16380"},
+		]},
+		{ "redis-cluster-prod-test" : [
+			{"host" : "128.0.0.1", "port" : "16380"},
+		]}
+	]
+}
+
+
